@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1 id="title">Audi becomes my Car</h1><br/>
+  <p id="description">How to: Fine Tune My Audi</p>
+  <hr/>
+  <br/>
+   <form id="survey-form">
+    <div id="main">
+    <label for="name" id="name-label">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required /> </input></br></br>
+    <label for="email" id="email-label">Email</label>
+    <input type="email" id="email" name="email" placeholder="info@email" required /> </input></br></br>
+    <label for="number" id="number-label"> Age </label>
+    <input type="number" id="number" name="number" placeholder="22" min="18" max="100" required /> </input><br />
+    <br />
+
+    <label for="dropdown" id="model">Select model</label> <br />
+    <select id="dropdown" name="model">
+      <option value="">A1</option>
+      <option value="">A3</option>
+      <option value="">A6</option>
+      <option value="">A8</option>
+      <option value="">Q5</option>
+      <option value="">Q7</option>
+      <option value="">R8</option>
+    </select>
+    <br />
+    <br />
+
+    <label for="model-color" id="model-color">Model color</label><br />
+
+    <input id="model-color" type="radio" id="white" name="color" value="white" />
+    <label for="model-color">White</label><br />
+    <input id="model-color" type="radio" id="red" name="color" value="red" />
+    <label for="model-color">Red</label><br />
+    <input id="model-color" type="radio" id="blue" name="color" value="blue" />
+    <label for="model-color">Blue</label><br />
+    <input id="model-color" type="radio" id="brown" name="color" value="brown" />
+    <label for="model-color">Brown</label><br />
+    <input id="model-color" type="radio" id="silver" name="color" value="silver" />
+    <label for="model-color">Silver</label><br />
+    <br />
+    <br />
+    <label for="engine">Car contents</label><br />
+
+    <input id="checkbox" type="checkbox" name="engine" value="1600cc">
+    <label for="checkbox">1600cc</label><br />
+    <input id="checkbox" type="checkbox" name="engine" value="2000cc">
+    <label for="checkbox">2000cc</label><br />
+    <input id="checkbox" type="checkbox" name="engine" value="2200cc">
+    <label for="checkbox">2200cc</label><br />
+    <input id="checkbox" type="checkbox" name="engine" value="2800cc">
+    <label for="checkbox">2800cc</label><br />
+    <input id="checkbox" type="checkbox" name="engine" value="3200cc">
+    <label for="checkbox">3200cc</label><br />
+    <input id="checkbox" type="checkbox" name="engine" value="4000cc">
+    <label for="checkbox">4000cc</label><br />
+    <input id="checkbox" type="checkbox" name="engine" value="6000cc">
+    <label for="checkbox">6000cc</label> <br />
+    <br />
+    <label for="textarea">Additional comments</label><br />
+    <textarea name="instructions" id="textarea" cols="30" rows="10"></textarea>
+    <br />
+    <input type="submit" value="Proceed order" id="submit" />
+</div>
+
+  </form>
+</body>
+
+</html>

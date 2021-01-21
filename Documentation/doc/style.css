@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400,600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+nav {
+  background-color: #888;
+  border-right: 2px solid #333;
+  width: 300px;
+  height: 100vh;
+}
+
+#navbar ul li {
+  list-style: none;
+}
+nav header {
+  padding: 22px;
+}
+
+nav a {
+  border-top: 2px solid rgb(250, 148, 148);
+  color: rgb(77, 9, 9);
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+}
+main {
+  flex: 1;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+section {
+  padding: 24px;
+  line-height: 1.6;
+}
+
+header {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(77, 9, 9);
+}
+.head {
+  color: rgb(77, 9, 9);
+  font-size: 28px;
+}
+
+.back {
+  background-color: #ddd;
+  padding-left: 60px;
+  list-style: square;
+  border: 1px dashed rgb(250, 148, 148);
+  color: rgb(77, 9, 9);
+}
+
+.back1 {
+  background-color: #ddd;
+  padding-left: 60px;
+  list-style: square;
+  border: 1px dashed rgb(250, 148, 148);
+  color: rgb(77, 9, 9);
+}
+
+.back2 {
+  background-color: #ddd;
+  padding-left: 60px;
+  list-style: square;
+  border: 1px dashed rgb(250, 148, 148);
+  color: rgb(77, 9, 9);
+}
+
+.back3 {
+  background-color: #ddd;
+  padding-left: 60px;
+  list-style: square;
+  border: 1px dashed rgb(250, 148, 148);
+  color: rgb(77, 9, 9);
+}
+
+.back4 {
+  background-color: #ddd;
+  padding-left: 60px;
+  list-style: square;
+  border: 1px dashed rgb(250, 148, 148);
+  color: rgb(77, 9, 9);
+}
+
+.back5 {
+  background-color: #ddd;
+  padding-left: 60px;
+  list-style: square;
+  border: 1px dashed rgb(250, 148, 148);
+  color: rgb(77, 9, 9);
+}
+
+@media (max-width: 600px) {
+  body {
+    /* pushed the text below the NAV so it becomes responive (like mobile) */
+    flex-direction: column;
+  }
+  nav {
+    border-right: none;
+    height: 300px;
+    border-bottom: 2px solid #333;
+    overflow-y: scroll;
+    width: 100%;
+  }
+  main {
+    height: auto;
+    width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(45deg, silver, pink, silver);
+  color: rgb(185, 19, 19);
+  width: 520px;
+  margin: auto;
+}
+#title,
+h1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(185, 19, 19);
+}
+
+#description,
+p {
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+  background-color: springgreen;
+  border-radius: 2rem;
+}
+
+form {
+  background: rgba(119, 126, 123, 0.6);
+  padding: 5em;
+  border-radius: 3rem;
+  margin: auto;
+}
